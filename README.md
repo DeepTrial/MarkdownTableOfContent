@@ -6,28 +6,28 @@
         - [Generate again.](#generate-again.)
         - [Future work](#future-work)
     - [More Example](#more-example)
-<!-- This is the mark to help regenerate toc.Please do not change the content by yourself.-->
+<!-- This is the mark to help regenerate toc. Please do not change the content by yourself.-->
 
 # Markdown Table of Content
-this is a python script which can generate table of content(toc) for markdown file.
+This is a python script which can generate table of content (toc) for markdown file.
 
 ## How to use?
 
 ### First time to use
-In cl,use _cd_ to open the project folder and run:
+In cl, use _cd_ to open the project folder and run:
 
     `python toc.py <path to your markdown file>`
 
-backup of your markdownfile is in markdown folder.The program will rewrite your markdown file,so for savety,we auto-backup the file.
+backup of your markdown file is in `markdown` folder. The program will rewrite your markdown file, so for safety, we auto-backup the file.
 
-### Generate again.
-when you change the content,just run the command again.The program will clean the previous toc first,and generate a new toc for you.
+### Generate again
+when you change the content, just run the command again. The program will clean the previous toc first, and generate a new toc for you.
 
 ### Future work
-Now the program can preocess mixed language file,but sometimes it doesn't work.I am work on it.
+Now the program can process mixed language file, but sometimes it doesn't work. I am work on it.
 
 ## More Example
-to see more examples,you can dir to test folder to see a more difficult example which has English and Chinese header.By the way,the toc of this file is also generate by this program.
+To see more examples, you can dir to `test` folder to see a more difficult example which has English and Chinese header. By the way, the toc of this file is also generate by this program.
 
 
 
